@@ -6,5 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+    protected $fillable = [
+        'user_id',
+        'title',
+        'shoot_date',
+        'location',
+        'status',
+        'notes',
+    ];
     //
 }
